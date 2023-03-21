@@ -1,9 +1,13 @@
 #include "main.h"
 	/**
-	 * main - print _putchar
-	 * is written by mbah
-	 * Return: 0
-	 */
+ * main - Entry point for the program
+ *
+ * This function prints the string "_putchar" to the standard output
+ * using the _putchar function.
+ *
+ * Return: 0 on success
+ */
+
 
 
 	int main(void)

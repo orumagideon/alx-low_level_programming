@@ -3,8 +3,9 @@
 #include <stdio.h>
 
 /**
- * print_all - function prints everything.
- * @format: The list of types of arguments passed to the function
+ * print_all - function prints everything
+ * @format: List containing the various types of arguments
+ * that are supplied to the function.
  */
 void print_all(const char * const format, ...)
 {
@@ -19,7 +20,7 @@ void print_all(const char * const format, ...)
 	{
 		while (format[i])
 		{
-			switch (format[x])
+			switch (format[i])
 			{
 				case 'c':
 					printf("%s%c", sep, va_arg(list, int));
